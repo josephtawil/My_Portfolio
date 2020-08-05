@@ -1,0 +1,47 @@
+.education{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+
+}
+.profile{
+    margin: 5em ;
+    width: 25rem;
+    height: 25rem;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.5s ease;
+    /* justify-content: center;
+    align-items: center;
+    display: flex; */
+}
+
+.profile:hover{
+    height: 30rem;
+    width: 30rem;
+}
+.profile h3{
+    font-family: sans-serif;
+    font-weight:bold;
+    color: black;
+}
+ .pic{
+    position: absolute;
+    margin: 30px;
+    top: 100px;
+    right: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.profile img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.profile p{
+    font-size: 14px;
+}
