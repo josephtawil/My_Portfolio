@@ -8,4 +8,16 @@ $(document).ready(function() {
     $("#resume").on("click",() =>{
        location.href = "./styling/resume/MyResume.pdf";
     });
+
+    $("#project1").on("click",()=>{
+        window.location = "https://astrology-app-astrologica.herokuapp.com/members";
+    });
+
+    $("#project2").on("click",()=>{
+        window.location = "https://josephtawil.github.io/CSSearch/";
+    })
+    
+    $("#project3").on("click",()=>{
+        location.href="./soon.html";
+    })
 });
