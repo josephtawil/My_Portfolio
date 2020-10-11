@@ -22,6 +22,6 @@ $(document).ready(function () {
   });
 
   $("#btn").on("click", () => {
-    window.open("mailto:j.tawil2015@gmail.com");
+    window.open("mailto:j.tawil2015@gmail.com?subject=subject&body=body");
   });
 });
