@@ -11,4 +11,10 @@
   border-radius: 8px;
   text-align: center;
   box-shadow: 0 0 20px #000000b3;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-form h1 {
+  margin-top: 0;
+  font-weight: 200;
 }
