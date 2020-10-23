@@ -1,28 +1,25 @@
-body {
-  background-image: linear-gradient(
-    to bottom,
-    #e9ecef,
-    #e9ecef,
-    #e9ecef,
-    #e9ecef,
-    #e9ecef,
-    #d9dee1,
-    #cad1d3,
-    #bbc4c5,
-    #9ba6a4,
-    #808981,
-    #6a6c60,
-    #564f43
-  );
-}
 .navbar {
   background: crimson;
   position: fixed;
   width: 100%;
   font-family: "sans-serif";
 }
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .navbar .menu li a {
   color: #fff;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
 }
 .navbar .logo a {
   color: #fff;
