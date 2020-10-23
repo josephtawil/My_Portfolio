@@ -150,3 +150,19 @@ button img {
   transform: rotateX(45deg) scale(0.95);
   opacity: 1;
 }
+
+/* home section styling */
+.home {
+  display: flex;
+  background: black;
+  height: 100vh;
+  color: #fff;
+  min-height: 500px;
+  font-family: "sans-serif";
+}
+.home .max-width {
+  margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+}
