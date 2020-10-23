@@ -2,6 +2,7 @@
   background: crimson;
   position: fixed;
   width: 100%;
+  padding: 15px 0;
   font-family: "sans-serif";
 }
 .max-width {
@@ -16,6 +17,9 @@
 }
 .navbar .menu li a {
   color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
 }
 .navbar .menu li {
   list-style: none;
