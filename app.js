@@ -6,7 +6,13 @@ $(document).ready(function () {
     else{
       $('.navbar').removeClass("sticky");
     }
+  });
+
+  $('.menu-btn').click(function(){
+    $('.navbar .menu').toggleClass('active');
   })
+
+
   var name = document.getElementById("#name");
   $("#linkedin").on("click", () => {
     window.location = "https://www.linkedin.com/in/joseph-tawil/";
