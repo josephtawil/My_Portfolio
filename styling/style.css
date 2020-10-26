@@ -65,10 +65,16 @@
 
 @media(max-width:991px){
   .max-width {
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
-  }
+    padding: 0 50px;
+}
+.navbar .menu{
+  position: fixed;
+  background: #111;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
 }
 
 
