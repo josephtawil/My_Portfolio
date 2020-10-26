@@ -64,8 +64,13 @@
 }
 
 @media(max-width:947px){
+  
   .max-width {
     padding: 0 50px;
+}
+.menu-btn{
+  display: block;
+  z-index: 999;
 }
 .navbar .menu{
   position: fixed;
