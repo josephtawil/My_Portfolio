@@ -1,4 +1,12 @@
 $(document).ready(function () {
+  $(window).scroll(function() {
+    if(this.scrollY > 20){
+      $('.navbar').addClass("sticky");
+    }
+    else{
+      $('.navbar').removeClass("sticky");
+    }
+  })
   var name = document.getElementById("#name");
   $("#linkedin").on("click", () => {
     window.location = "https://www.linkedin.com/in/joseph-tawil/";
@@ -25,4 +33,6 @@ $(document).ready(function () {
   $("#btn").on("click", () => {
     window.open(`mailto:j.tawil2015@gmail.com?subject=${name}&body=body`);
   });
+
+
 });
