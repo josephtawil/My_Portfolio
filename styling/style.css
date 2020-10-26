@@ -75,6 +75,9 @@
   left: 0;
   top: 0;
 }
+.navbar .menu li{
+  display: block;
+}
 }
 
 
