@@ -74,9 +74,16 @@
   width: 100%;
   left: 0;
   top: 0;
+  text-align: center;
+  padding-top: 80px;
 }
 .navbar .menu li{
   display: block;
+}
+.navbar .menu li a{
+  display: inline-block;
+  margin: 20px 0;
+  font-size: 25px;
 }
 }
 
