@@ -63,7 +63,13 @@
   display: none;
 }
 
-
+@media(max-width:991px){
+  .max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+  }
+}
 
 
 
