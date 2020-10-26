@@ -81,6 +81,7 @@
   top: 0;
   text-align: center;
   padding-top: 80px;
+  transition: all 0.3s ease;
 }
 .navbar .menu.active{
   left: 0%;
