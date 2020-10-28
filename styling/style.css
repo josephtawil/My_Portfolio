@@ -296,4 +296,10 @@ button img {
   padding: 12px 36px;
   border-radius: 6px;
   border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+
+.home .home-content a:hover{
+  color: crimson;
+  background: none;
 }
