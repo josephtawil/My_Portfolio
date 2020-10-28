@@ -72,6 +72,9 @@
   display: block;
   z-index: 999;
 }
+.menu-btn i.active:before{
+  content: "\f00d";
+}
 .navbar .menu{
   position: fixed;
   background: #111;
@@ -93,6 +96,13 @@
   display: inline-block;
   margin: 20px 0;
   font-size: 25px;
+}
+
+.home .home-content .text-2 {
+  font-size: 70px;
+}
+.home .home-content .text-3 {
+  font-size: 35px;
 }
 }
 
