@@ -69,14 +69,13 @@
         margin-left: 0px;
       }
 }
-@media(max-width:947px){
-  
-}
-@media(max-width:947px){
-  
+@media(max-width:991px){
   .max-width {
     padding: 0 50px;
 }
+}
+@media(max-width:947px){
+  
 .menu-btn{
   display: block;
   z-index: 999;
@@ -114,7 +113,14 @@
   font-size: 35px;
 }
 }
-
+@media(max-width:690px){
+  .home .home-content .text-2 {
+    font-size: 70px;
+  }
+  .home .home-content .text-3 {
+    font-size: 35px;
+  }
+}
 
 
 
