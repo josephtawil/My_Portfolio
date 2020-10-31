@@ -114,6 +114,7 @@
 }
 .home .home-content a{
   font-size: 23px;
+  padding: 10px 30px;
 }
 }
 @media(max-width:690px){
@@ -125,6 +126,10 @@
   }
   .home .home-content .text-3 {
     font-size: 32px;
+  }
+  .home .home-content a{
+    font-size: 20px;
+    padding: 8px 20px;
   }
 }
 @media(max-width:500px){
