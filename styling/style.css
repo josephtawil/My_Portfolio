@@ -311,11 +311,20 @@ button img {
   background: none;
 }
 
+section{
+  padding:100px 0;
+}
+
 .about{
   font-family: 'Poppins, sans-serif';
 }
 
 .about .title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
   font-family: 'Ubuntu', sans-serif;
 }
 
