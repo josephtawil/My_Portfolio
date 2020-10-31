@@ -316,5 +316,11 @@ button img {
 }
 
 .about .title{
-  
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.about .about-content .left img{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
 }
