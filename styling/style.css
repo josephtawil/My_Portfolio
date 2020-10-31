@@ -8,6 +8,7 @@
 .navbar {
   position: fixed;
   width: 100%;
+  z-index: 999;
   padding: 15px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
@@ -344,8 +345,10 @@ section{
 .about .title::after{
   content: "who i am";
   position: absolute;
-  bottom: -7px;
+  bottom: -12px;
   left: 50%;
+  font-size: 20px;
+  color: crimson;
   transform: translateX(-50%);
  padding: 5px;
   background:#fff;
@@ -355,4 +358,5 @@ section{
   height: 400px;
   width: 400px;
   object-fit: cover;
+  border-radius: 6px;
 }
