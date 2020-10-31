@@ -340,6 +340,17 @@ section{
   background:#111;
 }
 
+
+.about .title::after{
+  content: "who i am";
+  position: absolute;
+  bottom: -7px;
+  left: 50%;
+  transform: translateX(-50%);
+ padding: 5px;
+  background:#fff;
+}
+
 .about .about-content .left img{
   height: 400px;
   width: 400px;
