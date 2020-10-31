@@ -112,6 +112,9 @@
 .home .home-content .text-3 {
   font-size: 35px;
 }
+.home .home-content a{
+  font-size: 23px;
+}
 }
 @media(max-width:690px){
   .max-width {
