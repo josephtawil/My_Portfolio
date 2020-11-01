@@ -65,10 +65,15 @@
 }
 
 
-@media(max-width: 1104px){
+@media(max-width: 1300px){
       .home .max-width {
         margin-left: 0px;
       }
+}
+@media(max-width: 1104px){
+  .home .max-width {
+    margin-left: 0px;
+  }
 }
 @media(max-width:991px){
   .max-width {
@@ -116,6 +121,9 @@
 .home .home-content a{
   font-size: 23px;
   padding: 10px 30px;
+}
+.about .about-content .column{
+  width: 50%;
 }
 }
 @media(max-width:690px){
@@ -390,6 +398,7 @@ section{
   background:crimson;
   color: #fff;
   font-size:20px;
+  font-weight: 500;
   padding: 10px 30px;
   border-radius: 6px;
   margin-top: 20px;
