@@ -385,3 +385,19 @@ section{
 .about .about-content .right p{
   text-align: justify;
 }
+.about .about-content .right a{
+  display: inline-block;
+  background:crimson;
+  color: #fff;
+  font-size:20px;
+  padding: 10px 30px;
+  border-radius: 6px;
+  margin-top: 20px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+
+.about .about-content .right a:hover{
+  color: crimson;
+  background:none;
+}
