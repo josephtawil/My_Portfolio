@@ -495,7 +495,21 @@ section .title::after{
   font-weight: 600;
   margin-bottom: 10px;
 }
-
+.skills .skills-content .left p{
+  text-align: justify;
+}
+.skills .skills-content .left a{
+  display: inline-block;
+  background:crimson;
+  color: #fff;
+  font-size:20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 6px;
+  margin-top: 20px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
 .skills .skills-content .right .bars{
   margin-bottom: 15px;
 }
