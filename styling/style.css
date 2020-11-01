@@ -515,5 +515,31 @@ section .title::after{
   height: 5px;
   width: 100%;
   background: lightgrey;
+  position: relative;
 }
 
+.skills .skills-content .right .line::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  left: 0;
+  top: 0;
+  background: crimson;
+}
+
+.skills-content .right .line.html::before{
+  width: 90%;
+}
+.skills-content .right .line.css::before{
+  width: 90%;
+}
+.skills-content .right .line.react::before{
+  width: 90%;
+}
+.skills-content .right .line.javascript::before{
+  width: 90%;
+}
+.skills-content .right .line.mysql::before{
+  width: 80%;
+}
