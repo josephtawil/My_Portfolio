@@ -138,6 +138,10 @@
 .about .about-content .right{
   flex: 100%;
 }
+.services .serv-content .card{
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
 }
 @media(max-width:690px){
   .max-width {
@@ -151,6 +155,9 @@
   }
   .home .home-content a{
     font-size: 20px;
+  }
+  .services .serv-content .card{
+    width: 100%;
   }
 }
 @media(max-width:500px){
@@ -462,7 +469,7 @@ section .title::after{
 .services .serv-content .card i {
     font-size: 50px;
     color: crimson; 
-    transition: all 0.3s ease;
+    transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i {
   background: #fff;
