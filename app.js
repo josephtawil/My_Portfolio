@@ -18,6 +18,13 @@ $(document).ready(function () {
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
+  });
+
+  var typed = new Typed(".typing-2", {
+    strings: ["Software Engineer", "Web Developer","Freelancer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
   })
 
   var name = document.getElementById("#name");
