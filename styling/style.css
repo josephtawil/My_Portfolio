@@ -372,12 +372,16 @@ section{
   width: 55%;
 }
 
-.about .about-content .left .text{
+.about .about-content .right .text{
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-.about .about-content .left .text span{
+.about .about-content .right .text span{
   color: crimson;
+}
+
+.about .about-content .right p{
+  text-align: justify;
 }
