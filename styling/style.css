@@ -397,7 +397,7 @@ section .title::after{
   height: 400px;
   width: 400px;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 50%;
 }
 .about .about-content .right{
   width: 55%;
@@ -490,3 +490,30 @@ section .title::after{
 .skills .skills-content .column{
   width: calc(50% - 30px);
 }
+.skills .skills-content .left .text{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.skills .skills-content .right .bars{
+  margin-bottom: 15px;
+}
+
+.skills .skills-content .right .info{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.skills .skills-content .right span{
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.skills .skills-content .right .line{
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+}
+
