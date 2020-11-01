@@ -13,6 +13,12 @@ $(document).ready(function () {
     $('.menu-btn i').toggleClass('active');
   })
 
+  var typed = new Typed(".typing", {
+    strings: ["Software Engineer", "Web Developer","Freelancer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+  })
 
   var name = document.getElementById("#name");
   $("#linkedin").on("click", () => {
