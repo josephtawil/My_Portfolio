@@ -477,7 +477,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i {
-  background: #fff;
+  color: #fff;
 }
 .services .serv-content .card .text {
   font-size: 25px;
@@ -522,7 +522,7 @@ section .title::after{
 }
 
 .projects .proj-content .card:hover i {
-  background: #fff;
+  color: #fff;
 }
 .projects .proj-content .card .text {
   font-size: 25px;
