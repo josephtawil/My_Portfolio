@@ -19,9 +19,11 @@
 }
 .navbar.sticky .logo a span{
   color: #fff;
+  
 }
 .navbar.sticky .menu li a:hover{
   color: #fff;
+  text-decoration: none;
 }
 .max-width {
   max-width: 1300px;
@@ -40,10 +42,12 @@
   font-weight: 500;
   margin-left: 25px;
   transition: color 0.3 ease;
+  text-decoration: none;
 }
 .navbar .logo a span{
   color: crimson;
   transition: all 0.3s ease;
+  
 }
 .navbar .menu li {
   list-style: none;
@@ -57,6 +61,7 @@
   color: #fff;
   font-size: 35px;
   font-weight: 600;
+  text-decoration: none;
 }
 .menu-btn{
   color: #fff;
@@ -505,6 +510,7 @@ section .title::after{
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 
 .projects .proj-content .card .box {
   transition: all 0.3s ease;
