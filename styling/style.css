@@ -506,7 +506,13 @@ section .title::after{
   transition: all 0.3s ease;
 }
 .projects .proj-content .card:hover{
-  background: crimson;
+  /* background: lightblue; */
+}
+.projects .proj-content .card:hover .text {
+  color: black
+}
+.projects .proj-content .card:hover p {
+  color: black
 }
 .projects .proj-content .card .box {
   transition: all 0.3s ease;
@@ -520,7 +526,9 @@ section .title::after{
   color: crimson; 
   transition: color 0.3s ease;
 }
-
+.projects .proj-content .card .box img {
+  width: 100%;
+}
 .projects .proj-content .card:hover i {
   color: #fff;
 }

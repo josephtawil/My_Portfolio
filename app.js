@@ -39,19 +39,21 @@ $(document).ready(function () {
   });
 
   $("#project1").on("click", () => {
-    window.location = "https://astrology-app-astrologica.herokuapp.com/members";
-  });
+    window.open("https://astrology-app-astrologica.herokuapp.com/")
+  })
+
 
   $("#project2").on("click", () => {
     window.location = "https://josephtawil.github.io/CSSearch/";
   });
 
   $("#project3").on("click", () => {
-    location.href = "./soon.html";
+    location.href = "https://smack-lab-app.herokuapp.com/home";
   });
 
   $("#btn").on("click", () => {
     window.open(`mailto:j.tawil2015@gmail.com?subject=${name}&body=body`);
+
   });
 
 
