@@ -505,6 +505,12 @@ section .title::after{
   cursor: pointer;
   transition: all 0.3s ease;
 }
+.projects .proj-content .card:hover{
+  background: crimson;
+}
+
+
+
 
 .skills .title::after {
   content: "what i know"
