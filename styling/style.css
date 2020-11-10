@@ -496,7 +496,7 @@ section .title::after{
   background: #111;
   content: "my work";
 }
-.services .serv-content .card{
+.projects .proj-content .card{
   width: calc(33% - 20px);
   background: #222;
   text-align: center;
