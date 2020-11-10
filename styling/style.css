@@ -349,7 +349,7 @@ section{
   padding:100px 0;
 }
 
-.about, .services, .skills{
+.about, .services, .skills, .projects{
   font-family: 'Poppins, sans-serif';
 }
 
@@ -389,7 +389,7 @@ section .title::after{
 .about .title::after{
   content: "who I am"
 }
-.about .about-content, .services .serv-content, .skills .skills-content{
+.about .about-content, .services .serv-content, .skills .skills-content, .projects .proj-content{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
