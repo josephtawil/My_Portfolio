@@ -508,12 +508,7 @@ section .title::after{
 .projects .proj-content .card:hover{
   /* background: lightblue; */
 }
-.projects .proj-content .card:hover .text {
-  color: black
-}
-.projects .proj-content .card:hover p {
-  color: black
-}
+
 .projects .proj-content .card .box {
   transition: all 0.3s ease;
 }

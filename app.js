@@ -48,7 +48,7 @@ $(document).ready(function () {
   });
 
   $("#project3").on("click", () => {
-    location.href = "https://smack-lab-app.herokuapp.com/home";
+    location.href = "https://smack-lab-app.herokuapp.com/";
   });
 
   $("#btn").on("click", () => {
