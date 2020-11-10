@@ -508,9 +508,19 @@ section .title::after{
 .projects .proj-content .card:hover{
   background: crimson;
 }
-.proj .proj-content .card .box {
+.projects .proj-content .card .box {
   transition: all 0.3s ease;
 }
+
+.projects .proj-content .card:hover .box {
+  transform: scale(1.05)
+}
+.projects .proj-content .card i {
+  font-size: 50px;
+  color: crimson; 
+  transition: color 0.3s ease;
+}
+
 
 
 
